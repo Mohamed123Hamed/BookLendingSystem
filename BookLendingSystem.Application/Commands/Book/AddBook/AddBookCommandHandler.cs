@@ -19,6 +19,7 @@ namespace BookLendingSystem.Application.Commands.Book.AddBook
             {
                 Title = request.Title,
                 Author = request.Author,
+                Quantity = request.Quantity,
                 IsAvailable = true
             };
             await _bookService.AddBookAsync(book);

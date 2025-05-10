@@ -7,5 +7,7 @@ namespace BookLendingSystem.Application.Commands.Book.AddBook
     {
     public string Title { get; set; }
     public string Author { get; set; }
-   }
+        public int Quantity { get; set; }
+
+    }
 }

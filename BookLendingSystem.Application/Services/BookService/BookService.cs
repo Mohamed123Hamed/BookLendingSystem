@@ -23,6 +23,7 @@ namespace BookLendingSystem.Application.Services.BookService
                     Id = x.Id,
                     Title = x.Title,
                     Author = x.Author,
+                    Quantity = x.Quantity,
                     IsAvailable = x.IsAvailable
                 }).ToListAsync();
         }
